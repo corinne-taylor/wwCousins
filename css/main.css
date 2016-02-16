@@ -1,7 +1,20 @@
-/*   THIS IS WHERE ALL THE MASTER STYLING WILL GO  */
+/*   THIS IS WHERE ALL THE MASTER STYLING WILL GO change your bg color motherfucker */
+@import url(https://fonts.googleapis.com/css?family=Righteous|Lobster+Two:400,700|Noto+Sans);
+
 body {
 	background-color: #ea842d;
 }
+
 h1 {
 	color: #ea332d;
+	font-family: 'Lobster Two';
+}
+
+h3 {
+	font-family: 'Righteous';
+}
+
+p {
+	font-family: 'Noto Sans';
+	color: #1c888d;
 }
