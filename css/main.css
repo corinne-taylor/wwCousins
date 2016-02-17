@@ -5,9 +5,10 @@ body {
 	background-color: #fff37f;
 }
 
-h1 {
+.header {
 	color: #ea332d;
 	font-family: 'Lobster Two';
+	text-align: center;
 	font-size: 7em;
 	text-shadow: 3px 3px #bdaf2b
 }
@@ -16,14 +17,18 @@ h3 {
 	font-family: 'Righteous';
 	color: #781c7b;
 	font-size: 2em;
+	text-align: center;
 }
 
 p {
 	font-family: 'Noto Sans';
 	color: #1c888d;
+	text-align: center;
 }
 
 .wrapper {
 	width: 70%;
 	margin: 0 auto;
 }
+
+/* CSS for the stupid slideshow div */
