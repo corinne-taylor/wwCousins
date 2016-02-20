@@ -30,9 +30,16 @@ p {
 	text-align: center;
 }
 
-.wrapper {
-	width: 80%;
-	margin: 0 auto;
-}
 
-/* CSS for the stupid slideshow div */
+
+
+/* Media Querys, yo */
+
+@media (min-width: 769px){
+
+	.wrapper {
+		width: 80%;
+		margin: 0 auto;
+		min-height: calc(100vh - 22px); 
+	}
+}
