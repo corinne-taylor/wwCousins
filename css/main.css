@@ -30,7 +30,17 @@ p {
 	text-align: center;
 }
 
+/* About Us styling */
 
+#about_us p {
+	text-align: left;
+	float: left;
+	margin-right: 40%;
+}
+
+#hours {
+	text-align: center;
+}
 
 
 /* Media Querys, yo */
