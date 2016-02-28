@@ -39,11 +39,16 @@ p {
 #about_us p {
 	text-align: left;
 	float: left;
-	margin-right: 40%;
+	margin-right: 60%;
 }
 
-#hours {
+footer {
+	display: inline-block;
+}
+
+#hours p {
 	text-align: center;
+
 }
 
 
