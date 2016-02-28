@@ -32,6 +32,10 @@ p {
 
 /* About Us styling */
 
+#instagrid {
+	float: right;
+}
+
 #about_us p {
 	text-align: left;
 	float: left;
