@@ -28,7 +28,6 @@ h3 {
 p {
 	font-family: 'Noto Sans';
 	color: #1c888d;
-	text-align: center;
 }
 
 /* About Us styling */
@@ -41,14 +40,28 @@ p {
 	text-align: left;
 }
 
-footer {
+footer p {
 	display: inline-block;
+	text-align: center;
+	width: 100%
 }
 
 #hours p {
 	text-align: center;
 
 }
+
+/* NaViGaTiOn*/
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	background: #bdaf2b; 
+	display: inline-block;
+}
+
 
 
 /* Media Querys, yo */
