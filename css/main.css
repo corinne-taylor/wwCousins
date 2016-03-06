@@ -6,16 +6,22 @@
 }
 
 body {
-	background-color: #fff37f;
+	background-color: #fffacc;
 
 }
 
-.header {
-	color: #ea332d;
+.jumbotron {
+    position: relative;
+    background: #fff37f url("hamburger.jpg") center center;
+    color: #ea332d;
 	font-family: 'Lobster Two';
 	text-align: center;
 	font-size: 7em;
 	text-shadow: 3px 3px #bdaf2b
+}
+
+.header {
+	
 }
 
 h3 {
@@ -30,10 +36,16 @@ p {
 	color: #1c888d;
 }
 
+#instagrid {
+	float: center;
+}
+
+
 /* About Us styling */
 
-#instagrid {
-	float: right;
+img {
+
+	height: 40%;
 }
 
 #about_us p {
