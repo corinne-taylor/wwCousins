@@ -13,15 +13,15 @@ body {
 .jumbotron {
     position: relative;
     background: #fff37f url("hamburger.jpg") center center;
-    color: #ea332d;
 	font-family: 'Lobster Two';
+	color: #ea332d;
 	text-align: center;
 	font-size: 7em;
 	text-shadow: 3px 3px #bdaf2b
 }
 
 .header {
-	
+	font-size: 10em;	
 }
 
 h3 {
@@ -46,6 +46,7 @@ p {
 img {
 
 	height: 40%;
+	align-content: center;
 }
 
 #about_us p {
@@ -72,6 +73,10 @@ ul {
 ul li {
 	background: #bdaf2b; 
 	display: inline-block;
+}
+
+.navbar-header {
+	background-color: #fffacc; 
 }
 
 
