@@ -16,13 +16,18 @@ body {
 	font-family: 'Lobster Two';
 	color: #ea332d;
 	text-align: center;
-	font-size: 7em;
+	font-size: 100px;
 	text-shadow: 3px 3px #bdaf2b
 }
 
-.header {
-	font-size: 10em;	
+h1 {
+	font-family: 'Lobster Two';
+	color: #ea332d;
+	text-align: center;
+	font-size: 100px;
+	text-shadow: 3px 3px #bdaf2b
 }
+
 
 h3 {
 	font-family: 'Righteous';
