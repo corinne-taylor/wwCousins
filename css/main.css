@@ -80,10 +80,24 @@ ul li {
 	display: inline-block;
 }
 
+/* Nav bar customization */
+
 .navbar-header {
 	background-color: #fffacc; 
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff37f;
+	color: #781c7b;
+}
+
+div.container-fluid {
+	background-color: #fffacc;
+}
+
+.nav.navbar.navbar-default{
+	color: #1c888d;
+}
 
 
 /* Media Querys, yo */
