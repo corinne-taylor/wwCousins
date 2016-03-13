@@ -58,6 +58,10 @@ img {
 	text-align: left;
 }
 
+footer {
+	margin-top: 20px;
+}
+
 footer p {
 	display: inline-block;
 	text-align: center;
@@ -97,6 +101,15 @@ div.container-fluid {
 
 .nav.navbar.navbar-default{
 	color: #1c888d;
+}
+
+form input {
+	max-width: 40%;
+}
+
+.col-md-6 p {
+	padding-left: 20px;
+	font-size: 1.1em;
 }
 
 

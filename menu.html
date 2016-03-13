@@ -50,7 +50,7 @@
 <h1 class="header">Our Menu</h1>
 </div>
 
-<body ng-app="myApp">
+<body>
 <button type="button" class="btn btn-default">Entrees</button>
 <button type="button" class="btn btn-default">A La Carte</button>
 <button type="button" class="btn btn-default">Sides</button>
@@ -59,7 +59,7 @@
 <button type="button" class="btn btn-default">View All</button>
 
 <div class="container">
-	 <div class="main" ng-controller="MainController">
+	 <div class="main">
       <div class="container">
 
         <h1>{{ title }}</h1>
@@ -68,7 +68,7 @@
 		
 	</div>
 
-	<div ng-repeat"products in products" id="aLaCarte">
+	<div id="aLaCarte">
 		<p><strong>{{ product.item | uppercase }}</strong></p>
 		<p><strong>{{ product.price | currency }}</strong></p>
 		
@@ -90,11 +90,7 @@
 		
 	</div>
 </div>
-<!-- Modules -->
-    <script src="javascript/app.js"></script>
 
-    <!-- Controllers -->
-    <script src="menu.js"></script>
 </body>
 </div>
 <footer>

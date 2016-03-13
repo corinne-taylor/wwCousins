@@ -2,16 +2,16 @@
 
 app.controller('MainController',
 ['$scope', function($scope) {
-	$scope.title = ‘A La Carte';
-  $scope.promo = 'Don’t forget Kids Eat Free Mondays and Tuesdays after 4:00!';
+	$scope.title = 'Our Menu';
+  	$scope.promo = 'Don’t forget Kids Eat Free Mondays and Tuesdays after 4:00!';
 	$scope.products = [ 
   { 
-   item: ‘1/3lb Hamburger’, 
+   item: '1/3lb Hamburger', 
     price: 5.5, 
     combo: ,
      }, 
   { 
-    name: '1/2lb Hamburger’, 
+    name: '1/2lb Hamburger', 
     price: 6.4,
     combo: , 
      } ,
