@@ -82,9 +82,12 @@ ul {
 ul li {
 	background: #bdaf2b; 
 	display: inline-block;
+	color: #781c7b;
 }
 
 /* Nav bar customization */
+
+.nav
 
 .navbar-header {
 	background-color: #fffacc; 
