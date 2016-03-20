@@ -8,7 +8,7 @@ app.controller('MainController',
   $scope.promo = 'Don’t forget Kids Eat Free Mondays and Tuesdays after 4:00!';
   $scope.products = [ 
   { 
-   item: '1/3lb Hamburger', 
+    name: '1/3lb Hamburger', 
     price: 5.5, 
     combo: 8.5,
      }, 
