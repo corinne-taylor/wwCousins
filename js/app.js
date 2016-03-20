@@ -1,9 +1,11 @@
+var app = angular.module("myApp", []);
+
 //This is where the jquery/javascript for the menu page will go!
 
 app.controller('MainController',
 ['$scope', function($scope) {
 	$scope.title = 'Our Menu';
-  	$scope.promo = 'Don’t forget Kids Eat Free Mondays and Tuesdays after 4:00!';
+  $scope.promo = 'Don’t forget Kids Eat Free Mondays and Tuesdays after 4:00!';
 	$scope.products = [ 
   { 
    item: '1/3lb Hamburger', 
