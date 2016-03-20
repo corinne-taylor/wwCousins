@@ -67,16 +67,15 @@
 
         <h1>{{title}}</h1>
         <h3>{{promo}}</h3>
-	<div class="mainmenu" id="entrees" ng-repeat="names in products">
+	<div class="mainmenu" id="entrees" ng-repeat="product in products">
 	<h3>Entrees</h3>
-		<p><strong>{{product.name | uppercase}}</strong></p>
-		<p><strong>{{product.combo | currency}}</strong></p>		
+		<p><strong>{{product.name | uppercase}} | {{product.combo | currency}}</strong></p> 
+				
 	</div>
 
-	<div class="mainmenu" id="alacarte" ng-repeat="names in products">
+	<div class="mainmenu" id="alacarte" ng-repeat="product in products">
 		<h3>A La Carte</h3>
-		<p><strong>{{product.name | uppercase}}</strong></p>
-		<p><strong>{{product.price | currency}}</strong></p>
+		<p><strong>{{product.name | uppercase}} | {{product.price | currency}}</strong></p>
 		
 	</div>
 
@@ -100,8 +99,8 @@
 
 	<div class="mainmenu" id="drinks">
 		<h3>Drinks</h3>
-			<p>We are proud to offer Coca-Cola&copy; products for $2 from the soda fountain. </p> 
-			<p>We also offer a selection of domestic and import bottled beers for the over 21 crowd</p>
+			<p><strong>We are proud to offer Coca-Cola&copy; products for $2 from the soda fountain.</strong> </p> 
+			<p><strong>We also offer a selection of domestic and import bottled beers for the over 21 crowd.</strong></p>
 
 		
 	</div>
