@@ -12,7 +12,7 @@ body {
 
 .jumbotron {
     position: relative;
-    background: #fff37f url("hamburger.jpg") center center;
+    background: #fff37f center center;
 	font-family: 'Lobster Two';
 	color: #ea332d;
 	text-align: center;
