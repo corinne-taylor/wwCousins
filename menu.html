@@ -40,10 +40,10 @@
 					<a href="menu.html">Menu</a>
 				</li>
 				<li>
-					<a href="come_visit.html">Come Visit Us!</a>
+					<a href="come_visit.html">Come Visit Us</a>
 				</li>
 				<li>
-					<a href="contact_us.html">Contact Us!</a>
+					<a href="contact_us.html">Contact Us</a>
 				</li>
 			</ul>
 		</div>
@@ -51,16 +51,8 @@
 </nav>
 
 <div class="jumbotron">
-<h1 class="header">Our Menu</h1>
+<h1 class="header">Build Your Dream Burger</h1>
 </div>
-
-<button type="button" class="btn btn-default" data-divid="entrees">Entrees</button>
-<button type="button" class="btn btn-default" data-divid="alacarte">A La Carte</button>
-<button type="button" class="btn btn-default" data-divid="sides">Sides</button>
-<button type="button" class="btn btn-default" data-divid="drinks">Drinks</button>
-<button type="button" class="btn btn-default" data-divid="desserts">Desserts</button>
-
-
 
 <div class="container">
 	 <div class="main" ng-controller="MainController">
@@ -68,6 +60,13 @@
 
         <h1>{{title}}</h1>
         <h3>{{promo}}</h3>
+
+<button type="button" class="btn btn-default" data-divid="entrees">Entrees</button>
+<button type="button" class="btn btn-default" data-divid="alacarte">A La Carte</button>
+<button type="button" class="btn btn-default" data-divid="sides">Sides</button>
+<button type="button" class="btn btn-default" data-divid="drinks">Drinks</button>
+<button type="button" class="btn btn-default" data-divid="desserts">Desserts</button>
+
 	<div class="mainmenu" id="entrees" ng-repeat="product in products">
 	<h3>Entrees</h3>
 		<p><strong>{{product.name | uppercase}} | {{product.combo | currency}}</strong></p> 
