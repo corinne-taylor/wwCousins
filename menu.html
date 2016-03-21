@@ -8,6 +8,8 @@
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -54,31 +56,35 @@
 <h1 class="header">Build Your Dream Burger</h1>
 </div>
 
-<div class="container">
-	 <div class="main" ng-controller="MainController">
+
+	<div class="container">
+	 <div class="main">
+	 	<div ng-controller="MainController">
       <div class="container">
 
         <h1>{{title}}</h1>
         <h3>{{promo}}</h3>
 
-<button type="button" class="btn btn-default" data-divid="entrees">Entrees</button>
-<button type="button" class="btn btn-default" data-divid="alacarte">A La Carte</button>
-<button type="button" class="btn btn-default" data-divid="sides">Sides</button>
-<button type="button" class="btn btn-default" data-divid="drinks">Drinks</button>
-<button type="button" class="btn btn-default" data-divid="desserts">Desserts</button>
-
-	<div class="mainmenu" id="entrees" ng-repeat="product in products">
+        <button type="button" class="btn btn-default" data-divid="entrees">Entrees</button>
+	<button type="button" class="btn btn-default" data-divid="alacarte">A La Carte</button>
+	<button type="button" class="btn btn-default" data-divid="sides">Sides</button>
+	<button type="button" class="btn btn-default" data-divid="drinks">Drinks</button>
+	<button type="button" class="btn btn-default" data-divid="desserts">Desserts</button>
+	
+	<div class="mainmenu" id="entrees">
 	<h3>Entrees</h3>
-		<p><strong>{{product.name | uppercase}} | {{product.combo | currency}}</strong></p> 
-				
-	</div>
+		<div ng-repeat="product in products">
+		<p><strong>{{ product.name | uppercase }} | {{ product.combo | currency }}</strong></p>
+			
+	</div></div>
+</div>
+	<div class="mainmenu" id="alacarte">
 
-	<div class="mainmenu" id="alacarte" ng-repeat="product in products">
 		<h3>A La Carte</h3>
-		<p><strong>{{product.name | uppercase}} | {{product.price | currency}}</strong></p>
-		
+		<div ng-repeat="product in products">
+		<p><strong>{{ product.name | uppercase }} | {{ product.combo | currency }}</strong></p>
+		</div>
 	</div>
-
 	<div class="mainmenu" id="sides">
 		<h3>Sides</h3>
 			<p>Your choice of the following:</p>
@@ -124,9 +130,6 @@
 
 <!-- Controllers -->
 <script src="js/controllers/MainController.js"></script>
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 <!-- script.js for jquery stuff goes here -->
 	 <script type="text/javascript" src="js/script.js"></script>
