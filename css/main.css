@@ -16,7 +16,7 @@ body {
 	font-family: 'Lobster Two';
 	color: #ea332d;
 	text-align: center;
-	font-size: 100px;
+	font-size: 7em;
 	text-shadow: 3px 3px #bdaf2b
 	margin-top: 0;
 }
@@ -25,7 +25,6 @@ h1 {
 	font-family: 'Lobster Two';
 	color: #ea332d;
 	text-align: center;
-	font-size: 100px;
 	text-shadow: 3px 3px #bdaf2b
 }
 
@@ -34,13 +33,14 @@ h3 {
 	font-family: 'Cabin Sketch', cursive;
 	font-weight: 700;
 	color: #781c7b;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 }
 
 p {
 	font-family: 'Noto Sans';
 	color: #000;
+	font-size: 1.4em;
 }
 
 #instagrid {
@@ -135,7 +135,7 @@ textarea {
 
 .col-md-6 p {
 	padding-left: 20px;
-	font-size: 1.1em;
+	font-size: 1.4em;
 }
 
 
@@ -152,4 +152,23 @@ textarea {
 		float: left;
 		margin-right: 60%;
 	}
+}/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .jumbotron h1 {
+        font-size: 2em;
+    }
 }
