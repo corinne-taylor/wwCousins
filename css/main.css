@@ -18,6 +18,7 @@ body {
 	text-align: center;
 	font-size: 100px;
 	text-shadow: 3px 3px #bdaf2b
+	margin-top: 0;
 }
 
 h1 {
@@ -45,6 +46,7 @@ p {
 #instagrid {
 	float: center;
 }
+
 
 
 /* About Us styling */
@@ -75,6 +77,16 @@ footer p {
 
 }
 
+.mainmenu p {
+	font-weight: bold;
+}
+
+.mainmenu>ul>li {
+	display: block;
+	color: #000;
+	background-color: #fffacc;
+}
+
 /* NaViGaTiOn*/
 
 ul {
@@ -85,6 +97,8 @@ ul li {
 	background: #bdaf2b; 
 	display: inline-block;
 	color: #781c7b;
+	font: 'Noto Sans';
+	font-weight: bold;
 }
 
 /* Nav bar customization */

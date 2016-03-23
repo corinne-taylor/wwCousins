@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(".mainmenu").hide();
-	$(".btn").on('click', function() {
+	$(".btn").click(function() {
 		var divId = $(this).attr('data-divid');
 		$('#'+divId).slideToggle();  
 	});
