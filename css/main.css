@@ -33,7 +33,7 @@ h3 {
 	font-family: 'Cabin Sketch', cursive;
 	font-weight: 700;
 	color: #781c7b;
-	font-size: 3em;
+	font-size: 5em;
 	text-align: center;
 }
 
@@ -63,7 +63,8 @@ img {
 }
 
 footer {
-	margin-top: 20px;
+	margin-top: 40px;
+	padding-top: 20px;
 }
 
 footer p {
@@ -77,6 +78,11 @@ footer p {
 
 }
 
+.socialicon {
+	height: 40px;
+	width: 40px;
+}
+
 .mainmenu p {
 	font-weight: bold;
 }
@@ -86,6 +92,8 @@ footer p {
 	color: #000;
 	background-color: #fffacc;
 }
+
+
 
 /* NaViGaTiOn*/
 
@@ -155,20 +163,20 @@ textarea {
 }/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .jumbotron h1 {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .jumbotron h1 {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .jumbotron h1 {
-        font-size: 2em;
+        font-size: 1.2em;
     }
 }

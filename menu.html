@@ -62,7 +62,7 @@
 	 	<div ng-controller="MainController">
       <div class="container">
 
-        <h1>{{title}}</h1>
+ 
         <h3>{{promo}}</h3>
 
         <button type="button" class="btn btn-default" data-divid="entrees">Entrees</button>
@@ -71,13 +71,16 @@
 	<button type="button" class="btn btn-default" data-divid="drinks">Drinks</button>
 	<button type="button" class="btn btn-default" data-divid="desserts">Desserts</button>
 	
-	<div class="mainmenu" id="entrees">
-	<h3>Entrees</h3>
-		<div ng-repeat="product in products">
-		<p><strong>{{ product.name | uppercase }} | {{ product.combo | currency }}</strong></p>
+	<div class="col-md-4"></div>
+	<div class="col-md-4>">
+		<div class="mainmenu" id="entrees">
+			<h3>Entrees</h3>
+				<div ng-repeat="product in products">
+					<p><strong>{{ product.name | uppercase }} | {{ product.combo | currency }}</strong></p>
 			
-	</div></div>
-</div>
+				</div>
+			</div>
+		</div>
 	<div class="mainmenu" id="alacarte">
 
 		<h3>A La Carte</h3>
@@ -124,7 +127,8 @@
 		
 	</div>
 </div>
-
+</div>
+<div class="col-md-4"></div>
 <!-- Modules -->
 <script src="js/app.js"></script>
 
@@ -142,6 +146,7 @@
 <!--include hours, address, link to top, link to social media -->
 <div id="hours">
 	<p>SUN-THU 11:00am-10:00pm     |     FRI-SAT 11:00am-11:00pm</p>
+	<p> Follow us online! <a href="https://www.instagram.com/wwcousins/"><img src="img/instagram.png" class="socialicon"></a> <a href="https://twitter.com/wwcousins"><img src="img/twitter.png" class="socialicon"></a> <a href="https://www.facebook.com/WWCousins/?fref=ts"><img src="img/facebook.png" class="socialicon"></a> </p>
 </div>
 </footer>
 </body>
