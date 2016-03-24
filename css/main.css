@@ -172,6 +172,11 @@ textarea {
     .jumbotron h1 {
         font-size: 1em;
     }
+
+    footer {
+	margin-top: 40px;
+	padding-top: 20px;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -179,4 +184,8 @@ textarea {
     .jumbotron h1 {
         font-size: 1.2em;
     }
+
+    footer {
+	margin-top: 40px;
+	padding-top: 20px;
 }
