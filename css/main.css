@@ -156,6 +156,10 @@ textarea {
 	margin-top: 120px;
 }
 
+button[type="submit"] {
+	margin-bottom: 60px;
+}
+
 /* Media Querys, yo */
 
 @media (min-width: 749px){
@@ -189,7 +193,7 @@ textarea {
     	font-size: 2em;
     }
 
-    footer {
+    footer .footer {
 	margin-top: 40px;
 	padding-top: 20px;
 }
@@ -201,9 +205,10 @@ textarea {
         font-size: 1.2em;
     }
 
-    footer {
+    footer .footer {
 	margin-top: 40px;
 	padding-top: 20px;
+	display: block;
 	}
 
 	h3 {
