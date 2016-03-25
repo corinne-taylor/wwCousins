@@ -93,6 +93,10 @@ footer p {
 	background-color: #fffacc;
 }
 
+.aboutus {
+	text-align: justify;
+}
+
 
 
 /* NaViGaTiOn*/
@@ -146,6 +150,11 @@ textarea {
 	font-size: 1.4em;
 }
 
+.col-md-3 p {
+	padding-right: 20px;
+	text-align: justify;
+	margin-top: 120px;
+}
 
 /* Media Querys, yo */
 
@@ -165,12 +174,19 @@ textarea {
     .jumbotron h1 {
         font-size: 1em;
     }
+    h3 {
+    	font-size: 1em;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .jumbotron h1 {
         font-size: 1em;
+    }
+
+    h3 {
+    	font-size: 2em;
     }
 
     footer {
@@ -188,4 +204,9 @@ textarea {
     footer {
 	margin-top: 40px;
 	padding-top: 20px;
+	}
+
+	h3 {
+		font-size: 5em;
+	}
 }
